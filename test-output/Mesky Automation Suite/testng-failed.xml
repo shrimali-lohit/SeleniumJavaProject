@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mesky Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mesky.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Mesky Test Cases(failed)">
+    <classes>
+      <class name="com.mesky.qa.testcases.Search">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifySearchWithInValidproduct"/>
+          <include name="verifySearchWithoutAnyProduct"/>
+        </methods>
+      </class> <!-- com.mesky.qa.testcases.Search -->
+      <class name="com.mesky.qa.testcases.Login">
+        <methods>
+          <include name="verifyLoginWithoutProvidingCredentials"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithInValidCredentials"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithValidEmailAndInValidPassword"/>
+        </methods>
+      </class> <!-- com.mesky.qa.testcases.Login -->
+      <class name="com.mesky.qa.testcases.Register">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyRegisteringAccountWithExistingEmailAddress"/>
+          <include name="verifyRegisteringAccountByProvidingAllFields"/>
+          <include name="verifyRegisteringAccountWithoutFillingAnyDetails"/>
+          <include name="verifyRegisteringAnAccountWithMandatoryFields"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mesky.qa.testcases.Register -->
+    </classes>
+  </test> <!-- Mesky Test Cases(failed) -->
+</suite> <!-- Failed suite [Mesky Automation Suite] -->

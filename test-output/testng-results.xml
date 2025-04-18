@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-25T23:35:58 IST" name="Default suite" finished-at="2024-12-25T23:36:05 IST" duration-ms="6512">
+  <suite started-at="2025-04-18T16:51:26 IST" name="Default suite" finished-at="2025-04-18T16:51:43 IST" duration-ms="17037">
     <groups>
     </groups>
-    <test started-at="2024-12-25T23:35:58 IST" name="Default test" finished-at="2024-12-25T23:36:05 IST" duration-ms="6512">
-      <class name="TutorialNinja.register.TC_RF_001">
-        <test-method signature="verifyRegisteringWithMandatoryFields()[pri:0, instance:TutorialNinja.register.TC_RF_001@2d52216b]" started-at="2024-12-25T23:35:58 IST" name="verifyRegisteringWithMandatoryFields" finished-at="2024-12-25T23:36:05 IST" duration-ms="6429" status="PASS">
+    <test started-at="2025-04-18T16:51:26 IST" name="Default test" finished-at="2025-04-18T16:51:43 IST" duration-ms="17037">
+      <class name="TutorialNinja.register.TC_RF_003">
+        <test-method signature="verifyRegisterAccountWithAllFields()[pri:0, instance:TutorialNinja.register.TC_RF_003@3527942a]" started-at="2025-04-18T16:51:26 IST" name="verifyRegisterAccountWithAllFields" finished-at="2025-04-18T16:51:43 IST" duration-ms="16963" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringWithMandatoryFields -->
-      </class> <!-- TutorialNinja.register.TC_RF_001 -->
+        </test-method> <!-- verifyRegisterAccountWithAllFields -->
+      </class> <!-- TutorialNinja.register.TC_RF_003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
